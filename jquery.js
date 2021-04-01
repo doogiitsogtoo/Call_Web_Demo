@@ -6,24 +6,24 @@
 
  $(document).ready(function(){
     $(".click").click(function(){
-      $(".yellow").animate({left: '150px'});
+      $(".yellow").animate({left: '210px'});
     });
   });  
 
  $(document).ready(function(){
     $(".click").click(function(){
-      $(".black").animate({left: '250px'});
+      $(".black").animate({left: '310px'});
     });
   });  
 
   $(document).ready(function(){
     $(".click").click(function(){
-      $(".blue").animate({left: '350px'});
+      $(".blue").animate({left: '410px'});
     });
   });  
 
   $(document).ready(function(){
     $(".click").click(function(){
-      $(".red").animate({left: '450px'});
+      $(".red").animate({left: '510px'});
     });
   });  
