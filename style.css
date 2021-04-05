@@ -62,16 +62,6 @@ header li a:hover {
     background: url(./icons/rsz_1next.png);
 }
 
-.meet {
-    width: 800px;
-    height: 500px;
-    background-color: azure;
-    top: 22%;
-    left: 2%;
-    border-radius: 20px;
-    position: absolute;
-}
-
 div h2{
     font-size: 100px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -151,15 +141,69 @@ div h3 {
     background: url(./pictures/rsz_ai.png);
 }
 
+.meet {
+    width: 800px;
+    height: 500px;
+    background-color: azure;
+    top: 22%;
+    left: 2%;
+    border-radius: 20px;
+    position: absolute;
+}
+
 .video_call {
     width: 100px;
     height: 100px;
-    margin-top: 750px;
+    margin-top: 50px;
     margin-left: 380px;
     border-radius: 50%;
     border: none;
     background: url(./icons/rsz_pikpngcom_whatsapp-image-png_2504603.png);
+    -webkit-background-size: cover;
 }
+
+.operator1 {
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    border-color: red;
+    border-style: solid;
+    margin-left: 850px;
+    margin-top: 207px;
+    background-image: url(./pictures/121275037-asian-telephone-operator-showing-thumbs-up-sign.jpg);
+    -webkit-background-size: cover;
+}
+
+.operator2 {
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    margin-left: 1160px;
+    margin-top: -240px;
+    background-image: url(./pictures/asian-telephone-operator-showing-thumbs-up-sign-smiling-145973996.jpg);
+    -webkit-background-size: cover;
+}
+
+.operator3 {
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    margin-left: 850px;
+    margin-top: 20px;
+    background-image: url(./pictures/istockphoto-620401624-1024x1024.jpg);
+    -webkit-background-size: cover;
+}
+
+.operator4 {
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    margin-left: 1160px;
+    margin-top: -240px;
+    background-image: url(./pictures/37424643.jpg);
+    -webkit-background-size: cover;
+}
+
 
 footer {
     position: fixed;

@@ -4,7 +4,8 @@ const display = document.querySelector(".display");
 function disp(result) {
     form.textarea.value = form.textarea.value + result;
 
-    spaceBtn.onclick = (() => {
+    space.onclick = (() => {
         form.textarea.value += " ";
     });
 }   
+
