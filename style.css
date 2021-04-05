@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    background: url(./pictures/2581979.png);
+    background-position: top;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+h2{
+    color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    background-color: #0f2670;
+    box-shadow: 0 0 25px 0 black;
+}
+
+.pages {
+    margin-left: 500px;
+}
+
+header * {
+    display: inline;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 8px;
+    margin-left: 50px;
+    font-size: 20px;
+    transition: all ease 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header li a:hover { 
+    background-color: #211b4385;
+}
+
+.click {
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: none;
+    background: url(./icons/rsz_1next.png);
+}
+
+.meet {
+    width: 800px;
+    height: 500px;
+    background-color: azure;
+    top: 22%;
+    left: 2%;
+    border-radius: 20px;
+    position: absolute;
+}
+
+div h2{
+    font-size: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    color: #0f2670;
+}
+
+div h3 {
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #0f2670;
+}
+
+.n {
+    background: url(./pictures/rsz_n.png);
+    width: 102px;
+    height: 140px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.e1 {
+    width: 102px;
+    height: 140px;
+    background: url(./pictures/rsz_e.png);
+    margin-left: 120px;
+    margin-top: -132px;
+}
+
+.e2 {
+    width: 102px;
+    height: 140px;
+    margin-left: 220px;
+    margin-top: -140px;
+    background: url(./pictures/rsz_e.png);
+}
+
+.l {
+    width: 102px;
+    height: 140px;
+    margin-left: 320px;
+    margin-top: -140px;
+    background: url(./pictures/rsz_l.png);
+}
+
+.t1 {
+    width: 102px;
+    height: 140px;
+    margin-left: 420px;
+    margin-top: -140px;
+    background: url(./pictures/rsz_t.png);
+}
+
+.t2 {
+    width: 102px;
+    height: 140px;
+    margin-left: 500px;
+    margin-top: -140px;
+    background: url(./pictures/rsz_t.png);
+}
+
+.e3 {
+    width: 102px;
+    height: 140px;
+    margin-left: 580px;
+    margin-top: -140px;
+    background: url(./pictures/rsz_e.png);
+}
+
+.i {
+    width: 102px;
+    height: 140px;
+    margin-left: 680px;
+    margin-top: -140px;
+    background: url(./pictures/rsz_ai.png);
+}
+
+.video_call {
+    width: 100px;
+    height: 100px;
+    margin-top: 750px;
+    margin-left: 380px;
+    border-radius: 50%;
+    border: none;
+    background: url(./icons/rsz_pikpngcom_whatsapp-image-png_2504603.png);
+}
+
+footer {
+    position: fixed;
+    margin-top: 900px;
+    margin-left: 900px;
+}
